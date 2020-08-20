@@ -84,6 +84,7 @@ public class ResearchServlet extends HttpServlet {
 		
 		RequestDispatcher dispatcher = request.getRequestDispatcher("researchResult.jsp");
 		dispatcher.forward(request, response);
+		//response.sendRedirect("researchResult.jsp?name="+name+"&gender="+gender+"&season"+seasons);
 		
 	}
 
